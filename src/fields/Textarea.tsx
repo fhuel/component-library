@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { PropTypes } from "prop-types";
+import PropTypes from "prop-types";
 import { FieldContext } from "./FieldContext";
 import { StyledTextarea } from "./styles";
 
@@ -19,5 +19,5 @@ Textarea.defaultProps = {
 };
 
 Textarea.propTypes = {
-  isResizable: PropTypes.boolean,
+  isResizable: PropTypes.bool,
 };
