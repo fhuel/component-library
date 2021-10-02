@@ -33,7 +33,8 @@
     "typescript": "4.2.2"
   },
   "dependencies": {
-    "polished": "^4.1.3"
+    "polished": "^4.1.3",
+    "prop-types": "^15.7.2"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
