@@ -7,10 +7,14 @@ export interface TextareaProps extends React.ComponentPropsWithRef<"textarea"> {
   isResizable?: boolean;
 }
 
-export const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(({ isResizable, ...props }, ref) => {
-  const id = useContext(FieldContext);
-  return <StyledTextarea ref={ref} id={id} isResizable={isResizable} {...props} />;
-});
+export const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
+  ({ isResizable, ...props }, ref) => {
+    const id = useContext(FieldContext);
+    return (
+      <StyledTextarea ref={ref} id={id} isResizable={isResizable} {...props} />
+    );
+  }
+);
 
 Textarea.displayName = "Field.Textarea";
 

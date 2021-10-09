@@ -36,7 +36,10 @@ describe("Field", () => {
           <Field.Textarea />
         </Field>
       );
-      expect(screen.getByLabelText("Textarea")).toHaveAttribute("id", "unique-id");
+      expect(screen.getByLabelText("Textarea")).toHaveAttribute(
+        "id",
+        "unique-id"
+      );
     });
   });
 });

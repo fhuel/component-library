@@ -1,6 +1,14 @@
 import styled, { css } from "styled-components";
 import { ButtonProps } from "./Button";
-import { DISABLED_OPACITY, SECONDARY_COLOR, SECONDARY_TEXT_COLOR, PRIMARY_TEXT_COLOR, PRIMARY_COLOR, DANGER_COLOR, DANGER_TEXT_COLOR } from "../utils/style";
+import {
+  DISABLED_OPACITY,
+  SECONDARY_COLOR,
+  SECONDARY_TEXT_COLOR,
+  PRIMARY_TEXT_COLOR,
+  PRIMARY_COLOR,
+  DANGER_COLOR,
+  DANGER_TEXT_COLOR,
+} from "../utils/style";
 import { transparentize } from "polished";
 
 const colorStyles = (p: ButtonProps) => {
