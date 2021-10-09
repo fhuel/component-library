@@ -1,3 +1,3 @@
 # component-library
 
-a test component library
+test component library
